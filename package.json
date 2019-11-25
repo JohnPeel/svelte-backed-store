@@ -1,7 +1,7 @@
 {
   "name": "svelte-backed-store",
   "version": "1.0.0",
-  "description": "LocalStorage or SessionStorage backed storages for Svelte.",
+  "description": "LocalStorage or SessionStorage backed stores for Svelte.",
   "main": "lib",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

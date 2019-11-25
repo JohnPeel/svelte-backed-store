@@ -16,7 +16,7 @@ import "svelte-backed-store";
 
 ...then use the store method on `localStorage` or `sessionStorage`:
 ```js
-export const myStore = localStorage.store("myKey", "myInitilValue");
+export const myStore = localStorage.store("myKey", "myInitialValue");
 ```
 
 ## For use in Sapper
