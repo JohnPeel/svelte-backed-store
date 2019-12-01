@@ -70,7 +70,7 @@ export const myStore = localStore("myKey", "myInitialValue");
 
 ## Readonly stores
 
-To create a readonly store only export subscribe on your "store".
+To create a readonly store only export subscribe on your "store". Which is what [readable](https://github.com/sveltejs/svelte/blob/13ef75be22d6850677a90310d058bed6b09b5a0f/src/runtime/store/index.ts#L53) does in Svelte.
 
 ```js
 export const myStore = { subscribe: localStore("myKey", "myInitialValue").subscribe };
