@@ -36,7 +36,7 @@ npm install svelte-backed-store
 import { backedStore } from "svelte-backed-store";
 ```
 
-...then bind backedStore to any Storage type...
+...then bind backedStore to any Storage instance (e.g. localStorage or sessionStorage)...
 
 ```js
 const localStore = backedStore.bind(localStorage);
