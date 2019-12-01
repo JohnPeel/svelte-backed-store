@@ -1,2 +1,5 @@
 .DS_Store
 node_modules
+lib
+*.js
+*.d.ts
