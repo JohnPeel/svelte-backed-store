@@ -29,9 +29,6 @@
     "storage.*",
     "polyfill.*",
     "backed.*",
-    "src/**/*.ts",
-    "tsconfig.json",
-    "package.json",
     "LICENSE",
     "README.md"
   ],
