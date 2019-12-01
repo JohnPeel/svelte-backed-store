@@ -68,6 +68,14 @@ const localStore = backedStore.bind(globals.localStorage);
 export const myStore = localStore("myKey", "myInitialValue");
 ```
 
+## Readonly stores
+
+To create a readonly store only export subscribe on your "store".
+
+```js
+export const myStore = { subscribe: localStore("myKey", "myInitialValue").subscribe };
+```
+
 ## Development
 
 This project is very simple, but pull requests and issue reports are welcome.
